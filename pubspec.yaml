@@ -1,0 +1,57 @@
+name: uas_maulana
+description: "Klinik Cahya Amalia Mobile Application"
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '3.4.0'
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  vm_service: ^14.2.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+  http: ^1.2.1
+  intl: ^0.19.0
+  marquee: ^2.2.3
+
+flutter:
+  assets:
+    - assets/images/klinik.jpeg
+    - assets/images/klinik1.png
+    - assets/images/klinik3.png
+    - assets/images/avatar.png
+    - assets/images/menu1.png
+    - assets/images/menu2.png
+    - assets/images/icon1.png
+    - assets/images/icon2.png
+    - assets/images/back.png
+    - assets/images/profil.png
+    - assets/images/regist1.png
+    - assets/images/lock.png
+    - assets/images/buku.png
+    - assets/images/kesehatan.jpeg
+    - assets/images/background.jpeg
+    - assets/images/imun.png
+    - assets/images/dokter1.png
+    - assets/images/dokter2.png
+    - assets/images/dokter3.png
+    - assets/images/dokter4.png
+    - assets/images/dokter5.png
+    - assets/images/jadwal.png
+    - assets/images/delete.png
+
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: fonts/Dangrek-Regular.ttf
+    - family: RollerFont
+      fonts:
+        - asset: fonts/roller-regular.ttf
